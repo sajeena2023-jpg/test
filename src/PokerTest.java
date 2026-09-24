@@ -7,8 +7,6 @@ import org.junit.jupiter.api.BeforeEach;
 
 
 
-
-
 /**
  * The test class PokerTest.
  *
@@ -67,5 +65,9 @@ public class PokerTest
         poker1.addHand(sf);
         assertEquals(sf, poker1.bestHand()); // == would work too...
     }
+
+
+
+
 }
 
