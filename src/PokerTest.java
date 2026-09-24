@@ -53,6 +53,14 @@ public class PokerTest
         assertTrue(sa.isStraight());
     }
 
+
+
+
+
+
+
+
+
     @Test
     public void testBestHand() {
         assertTrue(fh.compareTo(fk) <= 0);
@@ -66,14 +74,6 @@ public class PokerTest
         assertEquals(sf, poker1.bestHand()); // == would work too...
     }
 
-
-
-
-
-
-
-
-    
 
 }
 
