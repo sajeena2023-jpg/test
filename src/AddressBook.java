@@ -9,16 +9,6 @@ public class AddressBook {
 
 
 
-
-
-
-
-
-
-
-
-
-
     public void addBuddy(BuddyInfo buddy) {
         this.bud.add(buddy);
     }
@@ -30,9 +20,9 @@ public class AddressBook {
     public static void main(String[] args) {
         System.out.println("addddd book");
         AddressBook book = new AddressBook();
-        BuddyInfo person1 = new BuddyInfo("sajeescdscdsna", "jksdnkdnksndks way", "202");
+        BuddyInfo person1 = new BuddyInfo("sajeena", "jksdnkdnksndks way", "202");
         book.addBuddy(person1);
         book.removeBuddy(person1);
     }
-    //gdh6ft86tf
+    //https://github.com/sajeena2023-jpg/test.git
 }
