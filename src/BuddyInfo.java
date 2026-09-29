@@ -39,7 +39,7 @@ public class BuddyInfo {
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("Hello World....!");
         BuddyInfo buddy = new BuddyInfo("Homr", "4555 kendly way", "613");
         System.out.println("Hello " + buddy.getName());
     }
