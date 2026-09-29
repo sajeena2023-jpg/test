@@ -2,6 +2,12 @@
 import java.util.ArrayList;
 
 public class AddressBook {
+
+
+    public AddressBook(ArrayList<BuddyInfo> bud) {
+        this.bud = bud;
+    }
+
     private ArrayList<BuddyInfo> bud = new ArrayList();
 
     public AddressBook() {
@@ -26,3 +32,5 @@ public class AddressBook {
     }
     //https://github.com/sajeena2023-jpg/test.git
 }
+
+//how are you today and this is me using the branch setting
